@@ -1,0 +1,4 @@
+skel/.[a-zA-Z]*     /etc/skel
+changelog.gz        /usr/share/doc/desktop-defaults-icewm-antix 
+copyright           /usr/share/doc/desktop-defaults-icewm-antix 
+localisation/*      /usr/share/antiX/localisation

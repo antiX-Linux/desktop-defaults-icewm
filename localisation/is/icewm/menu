@@ -1,0 +1,87 @@
+prog "Skjáhermir" /usr/share/pixmaps/roxterm.xpm desktop-defaults-run -t
+prog "Heimamappa" /usr/share/icons/gTangish-2.0a1/32x32/places/folder.png desktop-defaults-run -fm
+separator
+prog "Vafranum" /usr/share/pixmaps/iceweasel.xpm desktop-defaults-run -b
+prog "Ritstjóri" /usr/share/icons/gTangish-2.0a1/32x32/apps/accessories-text-editor.png desktop-defaults-run -te
+separator
+menufile "Personal" /usr/share/icons/gTangish-2.0a1/32x32/apps/blam.png personal
+menufile "Forrit" /usr/share/icons/gTangish-2.0a1/32x32/apps/blam.png menu-applications
+menu "Update Menus" /usr/share/icons/gTangish-2.0a1/32x32/apps/gnome-settings-default-applications.png {
+    prog "Update Personal Menu" /usr/share/icons/gTangish-2.0a1/32x32/apps/gnome-settings-default-applications.png desktop-menu --menu-file='/etc/xdg/menus/TCM-MENU.menu' --write-out --write-out-file='personal'
+    prog "Update Local App Menu" /usr/share/icons/gTangish-2.0a1/32x32/apps/gnome-settings-default-applications.png desktop-menu --write-out
+    prog "Update Global App Menu" /usr/share/icons/gTangish-2.0a1/32x32/apps/gnome-settings-default-applications.png desktop-menu --write-out-global
+}
+separator
+menu "Skjáborð" /usr/share/icons/gTangish-2.0a1/32x32/places/user-desktop.png {
+    menufile "Alternate Desktops" /usr/share/icons/gTangish-2.0a1/32x32/places/user-desktop.png /usr/share/desktop-session/wm-menus/icewm-wm-menu
+    separator
+    prog "Add Desktop" /usr/share/icons/gTangish-2.0a1/32x32/places/user-desktop.png add-desktop
+    prog "Wallpaper" /usr/share/icons/gTangish-2.0a1/32x32/apps/preferences-desktop-wallpaper.png wallpaper.py
+    prog "GTK Theme" /usr/share/icons/gTangish-2.0a1/32x32/apps/preferences-desktop-wallpaper.png lxappearance
+    prog "Desktop Defaults" /usr/share/icons/gTangish-2.0a1/32x32/apps/gnome-settings-default-applications.png desktop-defaults-set
+    prog "Window Manager" /usr/share/icons/gTangish-2.0a1/32x32/places/user-desktop.png edit-wm-settings
+    prog "Session Settings" /usr/share/icons/gTangish-2.0a1/32x32/categories/preferences-system.png desktop-defaults-run -te ~/.desktop-session/desktop-session.conf
+    prog "Session Settings (Global)" /usr/share/icons/gTangish-2.0a1/32x32/categories/preferences-system.png desktop-defaults-run -r -te /etc/desktop-session/desktop-session.conf
+    separator
+    prog "RoxPanel on/off" /usr/share/icons/gTangish-2.0a1/32x32/apps/gnome-panel.png paneltoggle.sh
+    prog "Conky on/off" /usr/share/icons/gTangish-2.0a1/32x32/apps/utilities-system-monitor.png conkytoggle.sh
+}
+separator
+menu "Kerfistól" /usr/share/icons/gTangish-2.0a1/32x32/categories/preferences-system.png {
+    prog "Nano" /usr/share/icons/gTangish-2.0a1/32x32/apps/utilities-terminal.png desktop-defaults-run -t nano
+    prog "Ted" /usr/share/Ted/Ted.png /usr/bin/Ted
+    prog "Rox Filer" /usr/share/icons/antiX/rox-filer.png rox
+    prog "SpaceFM" /usr/share/icons/hicolor/48x48/apps/spacefm.png spacefm
+    prog "Leita" /usr/share/icons/gTangish-2.0a1/32x32/actions/edit-find.png spacefm --find-files
+    prog "MC File Manager" /usr/share/icons/hicolor/64x64/apps/MidnightCommander.png desktop-defaults-run -t mc
+    prog "App Killer" /usr/share/icons/gTangish-2.0a1/32x32/actions/dialog-cancel.png xkill
+    prog "Process Viewer" /usr/share/pixmaps/htop.png desktop-defaults-run -t htop
+    prog "System Information" /usr/share/icons/gTangish-2.0a1/32x32/devices/computer.png inxi-gui
+    prog "Add .desktop Files" /usr/share/icons/gTangish-2.0a1/32x32/actions/gtk-edit.png ktsuss adddesktop.sh
+}
+prog "Stjórnborð" /usr/share/icons/gTangish-2.0a1/32x32/categories/preferences-desktop.png antixcc.sh
+separator
+menu "Hjálp" /usr/share/icons/gTangish-2.0a1/32x32/apps/help-browser.png {
+    menu "antiX" /usr/share/icons/gTangish-2.0a1/32x32/places/folder.png {
+        prog "antiX FAQ" - dillo /usr/share/antiX/FAQ/index.html
+        prog "antiX-live How-To" - dillo /usr/share/antiX/Boot_Menu/antiX-gfxboot.html
+        separator
+        prog "Rox Manual" - desktop-defaults-run -b http://rox.sourceforge.net/Manual/Manual/Manual.html
+    }
+    separator
+    menu "Fluxbox" /usr/share/icons/gTangish-2.0a1/32x32/places/folder.png {
+        prog "Fluxbox Docs" - desktop-defaults-run -b http://fluxbox.sourceforge.net/docbook/en/html/
+        prog "Fluxbox FAQ" - desktop-defaults-run -b http://fluxbox-wiki.org/index.php/Faqs
+        prog "Fluxbox Wiki" - desktop-defaults-run -b http://fluxbox-wiki.org/index.php/Fluxbox-wiki
+        separator
+        prog "Arch Wiki" - desktop-defaults-run -b http://wiki.archlinux.org/index.php/Fluxbox
+    }
+    menu "IceWM" /usr/share/icons/gTangish-2.0a1/32x32/places/folder.png {
+        prog "IceWM FAQ" - desktop-defaults-run -b http://www.icewm.org/FAQ/
+        prog "IceWM Manual" - desktop-defaults-run -b http://www.icewm.org/manual/
+        separator
+        prog "OSNews" - desktop-defaults-run -b http://www.osnews.com/story/7774/IceWM--The-Cool-Window-Manager/
+    }
+    menu "JWM" /usr/share/icons/gTangish-2.0a1/32x32/places/folder.png {
+        prog "Homepage" - desktop-defaults-run -b http://joewing.net/programs/jwm/
+        prog "Arch Wiki" - desktop-defaults-run -b https://wiki.archlinux.org/index.php/JWM
+        prog "WM - Puppy-Linux" - desktop-defaults-run -b http://puppy.b0x.me/wiki/doku.php?id=jwm
+    }
+    separator
+    menu "Forrit" /usr/share/icons/gTangish-2.0a1/32x32/places/folder.png {
+        prog "Firewall" - desktop-defaults-run -b https://help.ubuntu.com/community/Gufw
+        prog "mtPaint" - desktop-defaults-run -b http://mtpaint.sourceforge.net/handbook/
+        prog "Partimage" - desktop-defaults-run -b http://www.partimage.org/Partimage-manual_Usage
+    }
+    menu "Man Pages" /usr/share/icons/gTangish-2.0a1/32x32/places/folder.png {
+        prog "Backup" - desktop-defaults-run -t man luckybackup
+        prog "Irssi" - desktop-defaults-run -t man irssi
+        prog "mc" - desktop-defaults-run -t man mc
+        prog "mocp" - desktop-defaults-run -t man mocp
+        prog "Nano" - desktop-defaults-run -t man nano
+        prog "Rss/Atom" - desktop-defaults-run -t man newsbeuter
+        prog "Skjáhermir" - desktop-defaults-run -t man urxvt
+        prog "Torrent" - desktop-defaults-run -t man rtorrent
+    }
+}
+prog "Setja upp" - gksu antixsources.sh
