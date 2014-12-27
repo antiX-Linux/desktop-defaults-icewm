@@ -1,3 +1,10 @@
+desktop-defaults-icewm-antix (0.2.3) unstable; urgency=low
+ 
+  * Added new icons set to menus
+
+ -- anticapitalista <antiX@operamail.com>  Thu, 25 Dec 2014 15:30:00 +0200
+
+
 desktop-defaults-icewm-antix (0.2.2) unstable; urgency=low
  
   * Removed conky folder

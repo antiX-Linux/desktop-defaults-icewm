@@ -3,9 +3,9 @@
 # Place your personal variant in $HOME/.icewm directory.
 
 ### Commonly used applications
-prog "Главная" folder desktop-defaults-run -fm
-prog "Терминал" xterm desktop-defaults-run -t
-prog "Браузер" /usr/share/icons/gTangish-2.0a1/32x32/apps/internet-web-browser.png desktop-defaults-run -b
-prog "Центр управления" /usr/share/icons/gTangish-2.0a1/32x32/categories/preferences-desktop.png antixcc.sh
-prog "Unplug Removable Device" /usr/share/icons/gTangish-2.0a1/32x32/devices/usbpendrive_unmount.png unplugdrive.sh
-prog "Выход" /usr/share/icons/gTangish-2.0a1/32x32/actions/system-log-out.png desktop-session-exit
+prog "Главная" /usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png desktop-defaults-run -fm
+prog "Терминал" /usr/share/icons/Faenza-Cupertino-mini/apps/32/terminal.png desktop-defaults-run -t
+prog "Браузер" /usr/share/icons/Faenza-Cupertino-mini/apps/32/web-browser.png desktop-defaults-run -b
+prog "Центр управления" /usr/share/icons/Faenza-Cupertino-mini/categories/32/preferences-desktop.png antixcc.sh
+prog "Unplug Removable Device" /usr/share/icons/Faenza-Cupertino-mini/devices/32/drive-removable-media-usb.png unplugdrive.sh
+prog "Выход" /usr/share/icons/Faenza-Cupertino-mini/actions/32/application-exit.png desktop-session-exit
