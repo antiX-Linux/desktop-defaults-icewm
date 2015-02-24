@@ -1,3 +1,17 @@
+desktop-defaults-icewm-antix (0.2.5) unstable; urgency=low
+ 
+  * Trimmed menu.
+
+ -- anticapitalista <antiX@operamail.com>  Mon, 12 Jan 2015 01:34:00 +0200
+
+
+desktop-defaults-icewm-antix (0.2.4) unstable; urgency=low
+ 
+  * Fixed broken keys - minor edits.
+
+ -- anticapitalista <antiX@operamail.com>  Fri, 09 Jan 2015 19:49:00 +0200
+
+
 desktop-defaults-icewm-antix (0.2.3) unstable; urgency=low
  
   * Added new icons set to menus

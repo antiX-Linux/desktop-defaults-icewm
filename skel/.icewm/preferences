@@ -9,8 +9,8 @@ UseMouseWheel=0
 IconPath="/usr/share/icons:/usr/share/pixmaps"
 
 RunCommand="gexec"
-TerminalCommand="roxterm"
-OpenCommand="" # menu file browser - eg. spacefm or rox
+TerminalCommand="desktop-defaults-run -t"
+OpenCommand="" # menu file browser - eg. spacefm or rox or desktop-defaults-run -fm
 
 #  Window Settings
 ##################
@@ -68,7 +68,7 @@ TaskBarShowMailboxStatus=0
 MailCommand="claws-mail"
 
 TaskBarShowCPUStatus=0
-CPUStatusCommand="roxterm -e htop"
+CPUStatusCommand="desktop-defaults-run -t htop"
 
 TaskBarShowNetStatus=0
 NetStatusCommand="x-terminal-emulator -name netstat -title 'Network Status' -e netstat -c"
