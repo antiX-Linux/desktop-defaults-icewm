@@ -1,8 +1,19 @@
-##Sample icewm keys for antiX.
+#Sample icewm keys for antiX.
+# Wingrid 
+key "Ctrl+1" wingrid-left.sh
+key "Ctrl+2" wingrid-right.sh
+key "Ctrl+3" wingrid-top.sh
+key "Ctrl+4" wingrid-bottom.sh
+key "Ctrl+5" wingrid-topleft.sh
+key "Ctrl+6" wingrid-topright.sh
+key "Ctrl+7" wingrid-bottomleft.sh
+key "Ctrl+8" wingrid-bottomright.sh
+key "Ctrl+9" wingrid-maximize.sh
+key "Ctrl+0" wingrid-close.sh
 
+key "Alt+F2" gexec
 key "Ctrl+Shift+Delete" desktop-session-exit
 key "Ctrl+Alt+e" desktop-defaults-run -e
-key "Ctrl+Alt+r" gexec
 key "Ctrl+Alt+t" desktop-defaults-run -t
 key "Ctrl+Shift+t" desktop-defaults-run -r -t
 key "Ctrl+Alt+u" gftp

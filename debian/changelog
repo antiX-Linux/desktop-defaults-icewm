@@ -1,3 +1,38 @@
+desktop-defaults-icewm-antix (0.3.2) unstable; urgency=low
+
+  * Alternate renamed to Other in menu
+
+ -- anticapitalista <antiX@operamail.com>  Sat, 30 May 2015 12:19:00 +0200
+
+
+desktop-defaults-icewm-antix (0.3.1) unstable; urgency=low
+ 
+  * Streamed menu
+
+ -- anticapitalista <antiX@operamail.com>  Fri, 24 Apr 2015 18:07:00 +0200
+
+
+desktop-defaults-icewm-antix (0.3.0) unstable; urgency=low
+ 
+  * wingrid added to keys file
+
+ -- anticapitalista <antiX@operamail.com>  Wed, 15 Apr 2015 13:20:00 +0200
+
+
+desktop-defaults-icewm-antix (0.2.7) unstable; urgency=low
+ 
+  * Removed toram-eject, persist-config, setxkbmap from startup
+
+ -- anticapitalista <antiX@operamail.com>  Tue, 31 Mar 2015 13:14:00 +0200
+
+
+desktop-defaults-icewm-antix (0.2.6) unstable; urgency=low
+ 
+  * Removed fluxbox and jwm links from menus.
+
+ -- anticapitalista <antiX@operamail.com>  Wed, 11 Mar 2015 20:04:00 +0200
+
+
 desktop-defaults-icewm-antix (0.2.5) unstable; urgency=low
  
   * Trimmed menu.

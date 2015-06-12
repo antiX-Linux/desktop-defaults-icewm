@@ -50,11 +50,11 @@ TaskBarAutoHide=0
 TaskBarShowShowDesktopButton=1
 TaskBarShowStartMenu=1
 TaskBarShowWindowListMenu=0
-TaskBarShowCollapseButton=1
+TaskBarShowCollapseButton=0
 TaskBarDoubleHeight=0
 
 TaskBarShowWorkspaces=1
-WorkspaceNames=" 1 "," 2 "," 3 "," 4 "
+WorkspaceNames=" 1 "," 2 "
 
 TaskBarShowClock=1
 TaskBarClockLeds=0
@@ -71,7 +71,7 @@ TaskBarShowCPUStatus=0
 CPUStatusCommand="desktop-defaults-run -t htop"
 
 TaskBarShowNetStatus=0
-NetStatusCommand="x-terminal-emulator -name netstat -title 'Network Status' -e netstat -c"
+NetStatusCommand="desktop-defaults-run -t netstat -c"
 NetworkStatusDevice="ppp0 eth0"
 
 #  Keyboard Shortcuts
