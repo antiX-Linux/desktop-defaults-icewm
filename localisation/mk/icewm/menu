@@ -19,6 +19,7 @@ prog "Контролен центар" /usr/share/icons/Faenza-Cupertino-mini/ca
 separator
 menu "Помош" /usr/share/icons/Faenza-Cupertino-mini/apps/32/help-browser.png {
     menu "antiX" /usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png {
+        prog "antiX Video" - dillo /usr/share/antiX/antix_help_videos.html
         prog "antiX FAQ" - dillo /usr/share/antiX/FAQ/index.html
         prog "antiX-live How-To" - dillo /usr/share/antiX/Boot_Menu/antiX-gfxboot.html
         separator
