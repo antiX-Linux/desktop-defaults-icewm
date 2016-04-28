@@ -28,7 +28,7 @@ key "Ctrl+Alt+f" desktop-defaults-run -fm
 key "Ctrl+Shift+f" desktop-defaults-run -r -fm
 key "Ctrl+Alt+g" desktop-defaults-run -te
 key "Ctrl+Shift+g" desktop-defaults-run -r -te
-key "Ctrl+Alt+h" desktop-defaults-run -b file://usr/share/antix/help-docs/index.html
+key "Ctrl+Alt+h" desktop-defaults-run -b file:/usr/share/antiX/FAQ/index.html
 key "Ctrl+Alt+k" desktop-session-exit
 key "Ctrl+Alt+l" slock
 key "Ctrl+Alt+z" grsync

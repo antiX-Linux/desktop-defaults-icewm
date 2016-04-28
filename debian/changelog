@@ -1,3 +1,29 @@
+desktop-defaults-icewm-antix (0.3.8) unstable; urgency=medium
+
+  * Fixed bug gksu to open antixsources.sh in default menu
+
+ -- anticapitalista <antix@operamail.com>  Mon, 11 Apr 2016 15:31:53 +0300
+
+desktop-defaults-icewm-antix (0.3.7) unstable; urgency=medium
+
+  * Use gksu to open antixsources.sh 
+
+ -- anticapitalista <antix@operamail.com>  Sun, 03 Apr 2016 13:37:29 +0300
+
+desktop-defaults-icewm-antix (0.3.6) unstable; urgency=low
+
+  * New default theme for antiX-16
+
+ -- anticapitalista <antiX@operamail.com>  Thu, 10 Mar 2016 13:47:00 +0200
+
+
+desktop-defaults-icewm-antix (0.3.5) unstable; urgency=low
+
+  * Fixed keybind assignment file to open FAQ
+
+ -- anticapitalista <antiX@operamail.com>  Fri, 15 Jan 2016 18:13:00 +0200
+
+
 desktop-defaults-icewm-antix (0.3.4) unstable; urgency=low
 
   * Personal in menu calls antiX Videos

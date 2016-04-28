@@ -48,4 +48,4 @@ menu "Pagalba" /usr/share/icons/Faenza-Cupertino-mini/apps/32/help-browser.png {
         prog "Torrent" - desktop-defaults-run -t man rtorrent
     }
 }
-prog "Įdiegti" - /usr/share/icons/msystem.png su-to-root -X -p demo -c antixsources.sh
+prog "Įdiegti" - /usr/share/icons/msystem.png gksu antixsources.sh
