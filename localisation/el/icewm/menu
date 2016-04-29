@@ -48,4 +48,4 @@ menu "Βοήθεια" /usr/share/icons/Faenza-Cupertino-mini/apps/32/help-browse
         prog "Torrent" - desktop-defaults-run -t man rtorrent
     }
 }
-prog "Εγκατάσταση" -/usr/share/icons/msystem.png  sudo antixsources.sh
+prog "Εγκατάσταση" /usr/share/icons/msystem.png  sudo antixsources.sh

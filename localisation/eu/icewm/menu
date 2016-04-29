@@ -48,4 +48,4 @@ menu "Laguntza" /usr/share/icons/Faenza-Cupertino-mini/apps/32/help-browser.png 
         prog "Torrent" - desktop-defaults-run -t man rtorrent
     }
 }
-prog "Instalatu" - /usr/share/icons/msystem.png sudo antixsources.sh
+prog "Instalatu" /usr/share/icons/msystem.png sudo antixsources.sh
