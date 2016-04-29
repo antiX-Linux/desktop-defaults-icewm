@@ -48,4 +48,4 @@ menu "Помощ" /usr/share/icons/Faenza-Cupertino-mini/apps/32/help-browser.pn
         prog "Torrent" - desktop-defaults-run -t man rtorrent
     }
 }
-prog "Инсталирай" - /usr/share/icons/msystem.png gksu antixsources.sh
+prog "Инсталирай" - /usr/share/icons/msystem.png sudo antixsources.sh
