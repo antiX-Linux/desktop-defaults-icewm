@@ -62,7 +62,9 @@ ClockCommand=""
 TimeFormat="%H:%M"
 DateFormat="%c"
 
-TaskBarShowAPMStatus=0
+TaskBarShowAPMAuto=1
+
+TaskBarShowMEMStatus=0
 
 TaskBarShowMailboxStatus=0
 MailCommand="claws-mail"
@@ -138,12 +140,11 @@ KeySysCollapseTaskBar="Alt+Ctrl+h"
 
 #  Display desktop background centered and not tiled
 DesktopBackgroundCenter=1 # 0/1
+DesktopBackgroundImage=""		# Prevent IceWM showing a background image
+DesktopBackgroundColor=""		# Prevent IceWM showing a background colour
 
 #  Support for semitransparent terminals like Eterm or gnome-terminal
 SupportSemitransparency=1 # 0/1
 
 #  Desktop background scaled to full screen
 DesktopBackgroundScaled=1 # 0/1
-
-#  Desktop background image
-DesktopBackgroundImage="~/Wallpaper/bg.jpg"
