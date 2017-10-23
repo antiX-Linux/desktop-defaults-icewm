@@ -1,3 +1,9 @@
+desktop-defaults-icewm-antix (0.3.13) unstable; urgency=medium
+
+  * Set keys to suggested
+
+ -- anticapitalista <antix@operamail.com>  Sat, 07 Oct 2017 17:49:24 +0300
+
 desktop-defaults-icewm-antix (0.3.12) unstable; urgency=low
 
   * Added DesktopBackgroundImage="" and DesktopBackgroundColor="" to preferences file to prevent IceWM showing a background image and colour
