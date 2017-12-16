@@ -1,20 +1,20 @@
 prog "Терминал" /usr/share/icons/Faenza-Cupertino-mini/apps/32/terminal.png desktop-defaults-run -t
-prog "Главная" /usr/share/icons/Faenza-Cupertino-mini/apps/32/file-manager.png desktop-defaults-run -fm
+prog "Файловый менеджер" /usr/share/icons/Faenza-Cupertino-mini/apps/32/file-manager.png desktop-defaults-run -fm
 separator
 prog "Браузер" /usr/share/icons/Faenza-Cupertino-mini/apps/32/web-browser.png desktop-defaults-run -b
 prog "редакторы" /usr/share/icons/Faenza-Cupertino-mini/apps/32/text-editor.png desktop-defaults-run -te
 separator
-menufile "Personal" /usr/share/icons/Faenza-Cupertino-mini/apps/32/config-users.png personal
+menufile "Личное" /usr/share/icons/Faenza-Cupertino-mini/apps/32/config-users.png personal
 menufile "Приложения" /usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-accessories.png menu-applications
-prog "Update Menu" /usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png desktop-menu --write-out-global
+prog "Обновить меню" /usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png desktop-menu --write-out-global
 separator
 menu "Рабочий стол" /usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png {
-    menufile "Other Desktops" /usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png /usr/share/desktop-session/wm-menus/icewm-wm-menu
-    prog "RoxPanel on/off" /usr/share/icons/Faenza-Cupertino-mini/apps/32/gnome-panel.png paneltoggle.sh
-    prog "Conky on/off" /usr/share/icons/Faenza-Cupertino-mini/apps/32/utilities-system-monitor.png conkytoggle.sh
+    menufile "Переключить оконные менеджеры" /usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png /usr/share/desktop-session/wm-menus/icewm-wm-menu
+    prog "Вкл/Выкл панель ROX" /usr/share/icons/Faenza-Cupertino-mini/apps/32/gnome-panel.png paneltoggle.sh
+    prog "Вкл/Выкл Conky" /usr/share/icons/Faenza-Cupertino-mini/apps/32/utilities-system-monitor.png conkytoggle.sh
 }
 separator
-    prog "Завершить" /usr/share/icons/Faenza-Cupertino-mini/actions/32/gtk-no.png xkill
+    prog "Принудительно завершить" /usr/share/icons/Faenza-Cupertino-mini/actions/32/gtk-no.png xkill
 prog "Центр управления" /usr/share/icons/Faenza-Cupertino-mini/categories/32/preferences-desktop.png antixcc.sh
 separator
 menu "Помощь" /usr/share/icons/Faenza-Cupertino-mini/apps/32/help-browser.png {
@@ -23,22 +23,22 @@ menu "Помощь" /usr/share/icons/Faenza-Cupertino-mini/apps/32/help-browser.
         prog "antiX FAQ" - dillo /usr/share/antiX/FAQ/index.html
         prog "antiX-live How-To" - dillo /usr/share/antiX/Boot_Menu/antiX-gfxboot.html
         separator
-        prog "Rox Manual" - dillo http://rox.sourceforge.net/Manual/Manual/Manual.html
+        prog "Rox Руководство" - dillo http://rox.sourceforge.net/Manual/Manual/Manual.html
     }
     separator
     menu "IceWM" /usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png {
         prog "IceWM FAQ" - dillo http://www.icewm.org/FAQ/
-        prog "IceWM Manual" - dillo http://www.icewm.org/manual/
+        prog "IceWM Руководство" - dillo http://www.icewm.org/manual/
         separator
         prog "OSNews" - dillo http://www.osnews.com/story/7774/IceWM--The-Cool-Window-Manager/
     }
     separator
     menu "Приложения" /usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png {
-        prog "Firewall" - dillo https://help.ubuntu.com/community/Gufw
+        prog "Брандмауэр" - dillo https://help.ubuntu.com/community/Gufw
         prog "Partimage" - dillo http://www.partimage.org/Partimage-manual_Usage
     }
     menu "Страницы по руководству" usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png {
-        prog "Backup" - desktop-defaults-run -t man luckybackup
+        prog "Резервное копирование" - desktop-defaults-run -t man luckybackup
         prog "Irssi" - desktop-defaults-run -t man irssi
         prog "mc" - desktop-defaults-run -t man mc
         prog "mocp" - desktop-defaults-run -t man mocp
@@ -48,4 +48,4 @@ menu "Помощь" /usr/share/icons/Faenza-Cupertino-mini/apps/32/help-browser.
         prog "Torrent" - desktop-defaults-run -t man rtorrent
     }
 }
-prog "Установка" /usr/share/icons/msystem.png sudo antixsources.sh
+prog "Установщик antiX" /usr/share/icons/msystem.png sudo antixsources.sh

@@ -4,14 +4,14 @@ separator
 prog "Tarayıcı" /usr/share/icons/Faenza-Cupertino-mini/apps/32/web-browser.png desktop-defaults-run -b
 prog "Editör" /usr/share/icons/Faenza-Cupertino-mini/apps/32/text-editor.png desktop-defaults-run -te
 separator
-menufile "Personal" /usr/share/icons/Faenza-Cupertino-mini/apps/32/config-users.png personal
+menufile "Kişisel" /usr/share/icons/Faenza-Cupertino-mini/apps/32/config-users.png personal
 menufile "Uygulamalar" /usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-accessories.png menu-applications
-prog "Update Menu" /usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png desktop-menu --write-out-global
+prog "Menüyü Güncelle" /usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png desktop-menu --write-out-global
 separator
 menu "Masaüstü" /usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png {
-    menufile "Other Desktops" /usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png /usr/share/desktop-session/wm-menus/icewm-wm-menu
-    prog "RoxPanel on/off" /usr/share/icons/Faenza-Cupertino-mini/apps/32/gnome-panel.png paneltoggle.sh
-    prog "Conky on/off" /usr/share/icons/Faenza-Cupertino-mini/apps/32/utilities-system-monitor.png conkytoggle.sh
+    menufile "Diğer Masaüstleri" /usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png /usr/share/desktop-session/wm-menus/icewm-wm-menu
+    prog "RoxPanel aç/kapa" /usr/share/icons/Faenza-Cupertino-mini/apps/32/gnome-panel.png paneltoggle.sh
+    prog "Conky açık/kapalı" /usr/share/icons/Faenza-Cupertino-mini/apps/32/utilities-system-monitor.png conkytoggle.sh
 }
 separator
     prog "App Killer" /usr/share/icons/Faenza-Cupertino-mini/actions/32/gtk-no.png xkill
@@ -20,25 +20,25 @@ separator
 menu "Yardım" /usr/share/icons/Faenza-Cupertino-mini/apps/32/help-browser.png {
     menu "antiX" /usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png {
         prog "antiX Video" - dillo /usr/share/antiX/antix_help_videos.html
-        prog "antiX FAQ" - dillo /usr/share/antiX/FAQ/index.html
-        prog "antiX-live How-To" - dillo /usr/share/antiX/Boot_Menu/antiX-gfxboot.html
+        prog "antiX SSS" - dillo /usr/share/antiX/FAQ/index.html
+        prog "antiX-çalışan Nasıl" - dillo /usr/share/antiX/Boot_Menu/antiX-gfxboot.html
         separator
-        prog "Rox Manual" - dillo http://rox.sourceforge.net/Manual/Manual/Manual.html
+        prog "Rox Kılavuzu" - dillo http://rox.sourceforge.net/Manual/Manual/Manual.html
     }
     separator
     menu "IceWM" /usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png {
-        prog "IceWM FAQ" - dillo http://www.icewm.org/FAQ/
-        prog "IceWM Manual" - dillo http://www.icewm.org/manual/
+        prog "IceWM SSS" - dillo http://www.icewm.org/FAQ/
+        prog "IceWM Kılavuzu" - dillo http://www.icewm.org/manual/
         separator
         prog "OSNews" - dillo http://www.osnews.com/story/7774/IceWM--The-Cool-Window-Manager/
     }
     separator
     menu "Uygulamalar" /usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png {
-        prog "Firewall" - dillo https://help.ubuntu.com/community/Gufw
+        prog "Güvenlik Duvarı" - dillo https://help.ubuntu.com/community/Gufw
         prog "Partimage" - dillo http://www.partimage.org/Partimage-manual_Usage
     }
-    menu "Man Pages" /usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png {
-        prog "Backup" - desktop-defaults-run -t man luckybackup
+    menu "Kılavuz Sayfaları" /usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png {
+        prog "Yedekle" - desktop-defaults-run -t man luckybackup
         prog "Irssi" - desktop-defaults-run -t man irssi
         prog "mc" - desktop-defaults-run -t man mc
         prog "mocp" - desktop-defaults-run -t man mocp

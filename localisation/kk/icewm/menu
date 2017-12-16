@@ -1,0 +1,51 @@
+prog "Терминал" /usr/share/icons/Faenza-Cupertino-mini/apps/32/terminal.png desktop-defaults-run -t
+prog "Файлдар басқарушысы" /usr/share/icons/Faenza-Cupertino-mini/apps/32/file-manager.png desktop-defaults-run -fm
+separator
+prog "Веб браузері" /usr/share/icons/Faenza-Cupertino-mini/apps/32/web-browser.png desktop-defaults-run -b
+prog "Түзетуші" /usr/share/icons/Faenza-Cupertino-mini/apps/32/text-editor.png desktop-defaults-run -te
+separator
+menufile "Жеке" /usr/share/icons/Faenza-Cupertino-mini/apps/32/config-users.png personal
+menufile "Қолданбалар" /usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-accessories.png menu-applications
+prog "Мәзірді жаңарту" /usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png desktop-menu --write-out-global
+separator
+menu "Жұмыс үстелі" /usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png {
+    menufile "Басқа жұмыс үстелдер" /usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png /usr/share/desktop-session/wm-menus/icewm-wm-menu
+    prog "RoxPanel іске қосу/сөндіру" /usr/share/icons/Faenza-Cupertino-mini/apps/32/gnome-panel.png paneltoggle.sh
+    prog "Conky іске қосу/сөндіру" /usr/share/icons/Faenza-Cupertino-mini/apps/32/utilities-system-monitor.png conkytoggle.sh
+}
+separator
+    prog "Қолданбаларды тоқтату" /usr/share/icons/Faenza-Cupertino-mini/actions/32/gtk-no.png xkill
+prog "Басқару орталығы" /usr/share/icons/Faenza-Cupertino-mini/categories/32/preferences-desktop.png antixcc.sh
+separator
+menu "Көмек" /usr/share/icons/Faenza-Cupertino-mini/apps/32/help-browser.png {
+    menu "antiX" /usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png {
+        prog "antiX Video" - dillo /usr/share/antiX/antix_help_videos.html
+        prog "antiX ЖҚС" - dillo /usr/share/antiX/FAQ/index.html
+        prog "antiX-live нұсқаулығы" - dillo /usr/share/antiX/Boot_Menu/antiX-gfxboot.html
+        separator
+        prog "Rox құжаттамасы" - dillo http://rox.sourceforge.net/Manual/Manual/Manual.html
+    }
+    separator
+    menu "IceWM" /usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png {
+        prog "IceWM ЖҚС" - dillo http://www.icewm.org/FAQ/
+        prog "IceWM құжаттамасы" - dillo http://www.icewm.org/manual/
+        separator
+        prog "OSNews" - dillo http://www.osnews.com/story/7774/IceWM--The-Cool-Window-Manager/
+    }
+    separator
+    menu "Қолданбалар" /usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png {
+        prog "Желілік экран" - dillo https://help.ubuntu.com/community/Gufw
+        prog "Partimage" - dillo http://www.partimage.org/Partimage-manual_Usage
+    }
+    menu "Man парақтары" /usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png {
+        prog "Қор көшірме" - desktop-defaults-run -t man luckybackup
+        prog "Irssi" - desktop-defaults-run -t man irssi
+        prog "mc" - desktop-defaults-run -t man mc
+        prog "mocp" - desktop-defaults-run -t man mocp
+        prog "Nano" - desktop-defaults-run -t man nano
+        prog "Rss/Atom" - desktop-defaults-run -t man newsbeuter
+        prog "Терминал" - desktop-defaults-run -t man urxvt
+        prog "Торрент" - desktop-defaults-run -t man rtorrent
+    }
+}
+prog "antiX орнатқышы" /usr/share/icons/msystem.png sudo antixsources.sh

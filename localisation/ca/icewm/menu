@@ -6,7 +6,7 @@ prog "Editor" /usr/share/icons/Faenza-Cupertino-mini/apps/32/text-editor.png des
 separator
 menufile "Personal" /usr/share/icons/Faenza-Cupertino-mini/apps/32/config-users.png personal
 menufile "Programari" /usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-accessories.png menu-applications
-prog "Actualitza el menú " /usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png desktop-menu --write-out-global
+prog "Actualitza el menú" /usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png desktop-menu --write-out-global
 separator
 menu "Escriptori" /usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png {
     menufile "Escriptoris alternatius" /usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png /usr/share/desktop-session/wm-menus/icewm-wm-menu

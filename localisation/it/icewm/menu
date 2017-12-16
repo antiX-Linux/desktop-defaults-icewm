@@ -8,8 +8,8 @@ menufile "Personale" /usr/share/icons/Faenza-Cupertino-mini/apps/32/config-users
 menufile "Applicazioni" /usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-accessories.png menu-applications
 prog "Aggiorna Menu" /usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png desktop-menu --write-out-global
 separator
-menu "Scrivania" /usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png {
-    menufile "Scrivania alternativi" /usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png /usr/share/desktop-session/wm-menus/icewm-wm-menu
+menu "Desktop" /usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png {
+    menufile "Cambia Desktop" /usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png /usr/share/desktop-session/wm-menus/icewm-wm-menu
     prog "RoxPanel on/off" /usr/share/icons/Faenza-Cupertino-mini/apps/32/gnome-panel.png paneltoggle.sh
     prog "Conky on/off" /usr/share/icons/Faenza-Cupertino-mini/apps/32/utilities-system-monitor.png conkytoggle.sh
 }
@@ -37,7 +37,7 @@ menu "Aiuto" /usr/share/icons/Faenza-Cupertino-mini/apps/32/help-browser.png {
         prog "Firewall" - dillo https://help.ubuntu.com/community/Gufw
         prog "Partimage" - dillo http://www.partimage.org/Partimage-manual_Usage
     }
-    menu "Pagine Manuale" /usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png {
+    menu "Pagine Man" /usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png {
         prog "Backup" - desktop-defaults-run -t man luckybackup
         prog "Irssi" - desktop-defaults-run -t man irssi
         prog "mc" - desktop-defaults-run -t man mc

@@ -4,12 +4,12 @@ separator
 prog "Navegador" /usr/share/icons/Faenza-Cupertino-mini/apps/32/web-browser.png desktop-defaults-run -b
 prog "Editor" /usr/share/icons/Faenza-Cupertino-mini/apps/32/text-editor.png desktop-defaults-run -te
 separator
-menufile "Personal" /usr/share/icons/Faenza-Cupertino-mini/apps/32/config-users.png personal
+menufile "Pessoal" /usr/share/icons/Faenza-Cupertino-mini/apps/32/config-users.png personal
 menufile "Aplicativos" /usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-accessories.png menu-applications
-prog "Update Menu" /usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png desktop-menu --write-out-global
+prog "Menu Actualizar" /usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png desktop-menu --write-out-global
 separator
-menu "Área de trabalho" /usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png {
-    menufile "Other Desktops" /usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png /usr/share/desktop-session/wm-menus/icewm-wm-menu
+menu "Ambiente de trabalho" /usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png {
+    menufile "Alternar entre Ambientes de trabalho" /usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png /usr/share/desktop-session/wm-menus/icewm-wm-menu
     prog "RoxPanel lig./desl." /usr/share/icons/Faenza-Cupertino-mini/apps/32/gnome-panel.png paneltoggle.sh
     prog "Conky lig./desl." /usr/share/icons/Faenza-Cupertino-mini/apps/32/utilities-system-monitor.png conkytoggle.sh
 }
@@ -38,7 +38,7 @@ menu "Ajuda" /usr/share/icons/Faenza-Cupertino-mini/apps/32/help-browser.png {
         prog "Partimage" - dillo http://www.partimage.org/Partimage-manual_Usage
     }
     menu "Documentação" /usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png {
-        prog "Backup" - desktop-defaults-run -t man luckybackup
+        prog "Cópia de segurança" - desktop-defaults-run -t man luckybackup
         prog "Irssi" - desktop-defaults-run -t man irssi
         prog "mc" - desktop-defaults-run -t man mc
         prog "mocp" - desktop-defaults-run -t man mocp
@@ -48,4 +48,4 @@ menu "Ajuda" /usr/share/icons/Faenza-Cupertino-mini/apps/32/help-browser.png {
         prog "Torrent" - desktop-defaults-run -t man rtorrent
     }
 }
-prog "Instalar" /usr/share/icons/msystem.png sudo antixsources.sh
+prog "Instalador do antiX" /usr/share/icons/msystem.png sudo antixsources.sh

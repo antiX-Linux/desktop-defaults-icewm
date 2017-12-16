@@ -4,17 +4,17 @@ separator
 prog "Prohlížeč" /usr/share/icons/Faenza-Cupertino-mini/apps/32/web-browser.png desktop-defaults-run -b
 prog "Editory" /usr/share/icons/Faenza-Cupertino-mini/apps/32/text-editor.png desktop-defaults-run -te
 separator
-menufile "Personal" /usr/share/icons/Faenza-Cupertino-mini/apps/32/config-users.png personal
+menufile "Osobní" /usr/share/icons/Faenza-Cupertino-mini/apps/32/config-users.png personal
 menufile "Aplikace" /usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-accessories.png menu-applications
-prog "Update Menu" /usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png desktop-menu --write-out-global
+prog "Aktualizovat Menu" /usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png desktop-menu --write-out-global
 separator
 menu "Pracovní plocha" /usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png {
-    menufile "Other Desktops" /usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png /usr/share/desktop-session/wm-menus/icewm-wm-menu
-    prog "RoxPanel on/off" /usr/share/icons/Faenza-Cupertino-mini/apps/32/gnome-panel.png paneltoggle.sh
-    prog "Conky on/off" /usr/share/icons/Faenza-Cupertino-mini/apps/32/utilities-system-monitor.png conkytoggle.sh
+    menufile "Alternativní plochy" /usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png /usr/share/desktop-session/wm-menus/icewm-wm-menu
+    prog "RoxPanel zapnut/vypnut" /usr/share/icons/Faenza-Cupertino-mini/apps/32/gnome-panel.png paneltoggle.sh
+    prog "Conky zapnut/vypnut" /usr/share/icons/Faenza-Cupertino-mini/apps/32/utilities-system-monitor.png conkytoggle.sh
 }
 separator
-    prog "Vražda" /usr/share/icons/Faenza-Cupertino-mini/actions/32/gtk-no.png xkill
+    prog "Zabít aplikace" /usr/share/icons/Faenza-Cupertino-mini/actions/32/gtk-no.png xkill
 prog "Ovládací centrum" /usr/share/icons/Faenza-Cupertino-mini/categories/32/preferences-desktop.png antixcc.sh
 separator
 menu "Nápověda" /usr/share/icons/Faenza-Cupertino-mini/apps/32/help-browser.png {
@@ -23,7 +23,7 @@ menu "Nápověda" /usr/share/icons/Faenza-Cupertino-mini/apps/32/help-browser.pn
         prog "Často kladené otázky" - dillo /usr/share/antiX/FAQ/index.html
         prog "Live Jak-na" - dillo /usr/share/antiX/Boot_Menu/antiX-gfxboot.html
         separator
-        prog "Rox Manual" - dillo http://rox.sourceforge.net/Manual/Manual/Manual.html
+        prog "Rox Manuál" - dillo http://rox.sourceforge.net/Manual/Manual/Manual.html
     }
     separator
     menu "IceWM" /usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png {
@@ -37,8 +37,8 @@ menu "Nápověda" /usr/share/icons/Faenza-Cupertino-mini/apps/32/help-browser.pn
         prog "Brána firewall" - dillo https://help.ubuntu.com/community/Gufw
         prog "Partimage" - dillo http://www.partimage.org/Partimage-manual_Usage
     }
-    menu "Man stránky" /usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png {
-        prog "Backup" - desktop-defaults-run -t man luckybackup
+    menu "Stránky manuálu" /usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png {
+        prog "Zálohování" - desktop-defaults-run -t man luckybackup
         prog "Irssi" - desktop-defaults-run -t man irssi
         prog "mc" - desktop-defaults-run -t man mc
         prog "mocp" - desktop-defaults-run -t man mocp

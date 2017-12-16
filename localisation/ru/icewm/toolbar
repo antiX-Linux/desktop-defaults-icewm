@@ -3,4 +3,4 @@
 # Place your personal variant in $HOME/.icewm directory.
 
 ### Commonly used applications
-prog "Unplug Removable Device" /usr/share/icons/Faenza-Cupertino-mini/devices/32/drive-removable-media-usb.png unplugdrive.sh
+prog "Извлечь съемное устройство" /usr/share/icons/Faenza-Cupertino-mini/devices/32/drive-removable-media-usb.png unplugdrive.sh

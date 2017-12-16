@@ -6,10 +6,10 @@ prog "Éditeur" /usr/share/icons/Faenza-Cupertino-mini/apps/32/text-editor.png d
 separator
 menufile "Personnel" /usr/share/icons/Faenza-Cupertino-mini/apps/32/config-users.png personal
 menufile "Applications" /usr/share/icons/Faenza-Cupertino-mini/categories/32/applications-accessories.png menu-applications
-prog "Mise à jour Menu" /usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png desktop-menu --write-out-global
+prog "Menu Mise à jour" /usr/share/icons/Faenza-Cupertino-mini/apps/32/update-manager.png desktop-menu --write-out-global
 separator
 menu "Bureau" /usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png {
-    menufile "autre bureau" /usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png /usr/share/desktop-session/wm-menus/icewm-wm-menu
+    menufile "autres bureaux" /usr/share/icons/Faenza-Cupertino-mini/places/32/user-desktop.png /usr/share/desktop-session/wm-menus/icewm-wm-menu
     prog "RoxPanel marche/arrêt" /usr/share/icons/Faenza-Cupertino-mini/apps/32/gnome-panel.png paneltoggle.sh
     prog "Conky marche/arrêt" /usr/share/icons/Faenza-Cupertino-mini/apps/32/utilities-system-monitor.png conkytoggle.sh
 }
@@ -23,7 +23,7 @@ menu "Aide" /usr/share/icons/Faenza-Cupertino-mini/apps/32/help-browser.png {
         prog "antiX FAQ" - dillo /usr/share/antiX/FAQ/index.html
         prog "antiX-live HowTo" - dillo /usr/share/antiX/Boot_Menu/antiX-gfxboot.html
         separator
-        prog "Manuel Rox" - dillo http://rox.sourceforge.net/Manual/Manual/Manual.html
+        prog "Manuel de Rox" - dillo http://rox.sourceforge.net/Manual/Manual/Manual.html
     }
     separator
     menu "IceWM" /usr/share/icons/Faenza-Cupertino-mini/places/32/folder.png {
